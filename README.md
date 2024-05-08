@@ -13,11 +13,11 @@ chmod +x remove-users.sh
 Run add-new-users.sh
 
 ```sh
-./add-new-users.sh -f usernames.list
+sudo ./add-new-users.sh -f usernames.list
 ```
 
 Run remove-users.sh
 
 ```sh
-./remove-users.sh -f usernames.list
+sudo ./remove-users.sh -f usernames.list
 ```
